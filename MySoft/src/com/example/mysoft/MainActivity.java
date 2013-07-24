@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
 	
 	public void tMessage(View v) {
 		TextView textView = (TextView)findViewById(R.id.textView1);
-		textView.setText("MyText"+ ++i);
+		textView.setText("MyText"+" Count click " + ++i);
 	}
 
 }
