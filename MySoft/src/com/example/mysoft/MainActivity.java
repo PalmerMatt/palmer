@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 
 public class MainActivity extends Activity {
-
+	int i=0;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -23,5 +23,9 @@ public class MainActivity extends Activity {
 	startActivity(i);
 	}
 	
+	public void tMessage(View v) {
+		TextView textView = (TextView)findViewById(R.id.textView1);
+		textView.setText("MyText"+ ++i);
+	}
 
 }
