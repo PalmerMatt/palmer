@@ -14,16 +14,18 @@ public class MainActivity extends Activity implements OnClickListener{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		
 	}
 	
 	@Override
 	public void onClick(View btn) {
-		if (btn.equals(this.findViewById(R.id.button1))) {
+		Log.i("OnClick", "Load classes");
+		if (btn.equals(findViewById(R.id.button1))) {
+			Log.i("IF", "Load if");
 			Intent i = new Intent(this, DisplayMessageActivity.class);
 			startActivity(i);
 			Log.i("CLICK", "Button 1 was clicked");
 		}
+		
 	}
 
 }
