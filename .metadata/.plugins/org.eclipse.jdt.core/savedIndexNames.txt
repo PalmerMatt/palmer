@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+C:\Documents and Settings\Palmer\Мои документы\GitHub\palmer\.metadata\.plugins\org.eclipse.jdt.core
+3527359873.index
+970372457.index
+4173530071.index
